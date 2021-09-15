@@ -3,6 +3,11 @@
 box-sizing: border-box; 
 }
 
+@font-face {
+	font-family: 'Neue Machina';
+	src: url('./fonts/NeueMachina-Regular.otf')
+    format('opentype'); 
+}
 body{
     background-color: #FAF4DA;
     color:rgb(0, 0, 0);
@@ -15,7 +20,7 @@ body{
 }
 
 h1{
-    font-family:monospace;
+    font-family:'Neue Machina', monospace, monospace;
     letter-spacing:0mm;
     font-size: 48px;
     font-style: normal;
@@ -86,6 +91,10 @@ color: rgba(250, 244, 218, 1);
 
 .explainers{
     margin-top:300px;
+}
+.explainers h3{
+    font-family: 'Neue Machina', monospace;
+    font-weight: bolder;
 }
 .img1{
     position: absolute;
