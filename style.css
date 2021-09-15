@@ -28,7 +28,7 @@ h1{
     letter-spacing:0mm;
     font-size: 48px;
     font-style: normal;
-    font-weight:700;
+    font-weight:bolder !important;
     text-align: left;
     margin: 0;
 }
