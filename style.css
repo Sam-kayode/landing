@@ -9,7 +9,7 @@ box-sizing: border-box;
     format('opentype'); 
 }
 body{
-    background-color: #FAF4DA;
+    background: rgba(250, 244, 218, 1) !important;
     color:rgb(0, 0, 0);
     overflow-x: hidden;
    
@@ -34,7 +34,10 @@ h1{
 }
 .landing{
     padding-bottom: 86px;
+    overflow-x: hidden;
 }
+
+
 .space{
 padding:86px 0px;
 background-color: #ffffff;
@@ -49,6 +52,9 @@ p{
     font-family: 'Space Grotesk', sans-serif;
 }
 
+.landing p, .space p{
+    font-size:20px;
+}
 .email-in{
     border: 1px solid #3A3A44;
     max-width: 527px;
@@ -76,6 +82,11 @@ border: 2px solid #000000;
 
 position: relative;
 top:0;
+
+}
+
+.box p{
+font-size: 16px;
 
 }
 
@@ -153,6 +164,50 @@ width:70%;
     top:60px;
     height:60%;
 }
+.move3{
+    position: absolute;
+    left:-98px;
+    z-index: 1;
+    top:-100px;
+    margin:0 !important;
+}
+
+.footer{
+    position: relative;
+    overflow: hidden;
+}
+
+.footer p{
+max-width:400px;
+font-family: 'Space Grotesk', sans-serif;
+margin-bottom:50px;
+position: relative;
+z-index: 2;
+font-size: 24px;
+} 
+
+.breach{
+    position: relative;
+    z-index: 2;
+}
+
+.footer a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.footer img{
+    margin-top:50px;
+}
+
+.links{
+    width:100%;
+    min-height:200px;
+    position: relative;
+    z-index: 2;
+}
+
 @media (max-width:786px){
     .landing h1{
     font-size:35px;
@@ -177,7 +232,7 @@ width:70%;
         
 }
 
-@media (max-width:546px) {
+@media (max-width:550px) {
     .move{
         position: absolute;
         right:-68px;
@@ -188,6 +243,13 @@ width:70%;
     position: absolute;
     left:-118px;
     top:60px;
+    height:60%;
+    z-index:1;
+}
+.move3{
+    position: absolute;
+    left:-118px;
+    top:-100px;
     height:60%;
     z-index:1;
 }
