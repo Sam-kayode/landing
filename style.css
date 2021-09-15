@@ -1,5 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/38d41072aa88a50711d4d50dd0d50f6b?family=Neue+Machina);
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Space+Grotesk:wght@300&display=swap');
 *{
 box-sizing: border-box; 
 }
@@ -16,18 +15,30 @@ body{
 }
 
 h1{
-    font-family: "Neue Machina";
+    font-family:monospace;
+    letter-spacing:0mm;
     font-size: 48px;
     font-style: normal;
     font-weight:bolder;
     line-height: 64px;
-    letter-spacing: 0em;
+    letter-spacing: 0em !important;
     text-align: left;
     
 }
+.landing{
+    padding-bottom: 86px;
+}
+.space{
+padding-top:86px;
+background-color: #ffffff;
 
+}
 .space h1{
     font-size:32px;
+}
+
+p{
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .email-in{
@@ -46,4 +57,31 @@ h1{
 .subscribe{
     color: rgba(255, 100, 7, 1);
 
+}
+
+
+
+.box{
+background: #FAF4DA;
+border: 2px solid #000000;
+
+position: relative;
+top:0;
+
+}
+
+.explainers{
+    margin-top:300px;
+}
+.img1{
+    position: absolute;
+    top:16px;
+    right:16px;
+z-index: 1;
+width:70%;
+
+}
+
+.img1 img{
+    width:100%;
 }
